@@ -49,7 +49,7 @@ class VehicleFactory():
 
 class Client():
     def __init__(self, vehicle_type):
-        # If we add a new vehicle we don't have to modify the code of the client. Which is an advantage when using a factory.
+        # If we add a new vehicle we don't have to modify the code of the client. Which is an advantage when using a creational.
         self.vehicle = VehicleFactory.create_vehicle(vehicle_type)
 
 
